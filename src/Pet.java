@@ -15,6 +15,9 @@ public class Pet extends Animal{
 
     // Перегруженный метод с двумя параметрами, помечен как final
     public final void play(String toy, int duration) {
-        System.out.println(this.getName() + " is playing with " + toy + " for " + duration + " minutes");
+        System.out.println(this.getName() + " is playing with " + toy +
+                " for " + duration + " minutes");
+
+
     }
 }

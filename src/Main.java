@@ -10,18 +10,21 @@ public class Main {
         System.out.println("Age: " + objectA.getAge());
         System.out.println("Type: " + objectA.getType());
         System.out.println("Owner: " + objectA.getOwner());
+        System.out.println();
 
         System.out.println("Object B:");
         System.out.println("Name: " + objectB.getName());
         System.out.println("Age: " + objectB.getAge());
         System.out.println("Type: " + objectB.getType());
         System.out.println("Aquarium: " + objectB.getAquarium());
+        System.out.println();
 
         System.out.println("Object C:");
         System.out.println("Name: " + objectC.getName());
         System.out.println("Age: " + objectC.getAge());
         System.out.println("Type: " + objectC.getType());
         System.out.println("Owner: " + objectC.getOwner());
+        System.out.println();
 
     }
 }
